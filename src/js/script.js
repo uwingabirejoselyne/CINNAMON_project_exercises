@@ -21,15 +21,26 @@
 //  li.classList.remove('list-item')
 //  li.remove()
 
-const btn2 =  document.querySelector('.btn-2');
-const change = document.querySelector('.change-button')
-function alertBtn(){
-    alert('i also love  java script')
-}
-btn2.addEventListener('click',alertBtn)
+// const btn2 =  document.querySelector('.btn-2');
+// const change = document.querySelector('.change-button')
+// function alertBtn(){
+//     alert('i also love  java script')
+// }
+// btn2.addEventListener('click',alertBtn)
 
-function changeColor(){
-change.style.background = 'blue'
-change.style.color ='white'
-}
-btn2.addEventListener('mouseover',changeColor)
+// function changeColor(){
+// change.style.background = 'blue'
+// change.style.color ='white'
+// }
+// btn2.addEventListener('mouseover',changeColor)
+
+// const revealBtn =  document.querySelector('reveal-btn')
+// const hiddencontent =  document.querySelector('hidden-content')
+
+// function viewContent(){
+//     if(hiddencontent.classList.contains('revealBtn')){
+//         hiddencontent.classList.remove('revealBtn')
+//     }
+//     else(hiddencontent.classList.add('revealBtn'))
+// }
+// revealBtn.addEventListener('click',viewContent)
